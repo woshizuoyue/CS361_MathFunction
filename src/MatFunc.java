@@ -6,4 +6,6 @@ public interface MatFunc {
     // function should be changed every time;
     double func(double x);
 
+    double numericDiffer();
+
 }

@@ -124,6 +124,24 @@ public class OCA_Test implements MatFunc{
             }
         }
     }
+
+    public double numericDiffer(){
+
+        // [f(x+h) - f(x-h)]/ 2h -> formula;
+        //  f(x + h) is a, f(x - h) is b;
+        // given f(x), x and h. we can use formula to calculate;
+
+        double res = 0;
+
+        double h = 0;
+        double a = 0; // f(x + h) value;
+        double b = 0; // f(x - h) value;
+
+        res = (a - b) / (2 * h);
+
+        return res;
+
+    }
 }
 
 class FFPrime {
